@@ -1,0 +1,5 @@
+# Visit https://docs.rilldata.com/ to learn more about Rill code artifacts.
+
+type: "s3"
+uri: "s3://test-bucket/AD.csv"
+endpoint: "https://c9a088b9ececc2dd9e1e975274c464d9.r2.cloudflarestorage.com"

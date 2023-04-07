@@ -1,0 +1,14 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+display_name: "ad_dashboard"
+model: "ad_model"
+timeseries: ""
+measures:
+  - label: Total records
+    expression: count(*)
+    description: Total number of records present
+    format_preset: humanize
+dimensions:
+  - label: Date
+    property: date
+    description: ""
